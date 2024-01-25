@@ -15,6 +15,7 @@ cell_df = pd.read_csv('cell_samples.csv')
 cell_df.head()
 cell_df['Class'].value_counts()
 
+
 malignant_df = cell_df[cell_df['Class']==4][0:200]
 benign_df = cell_df[cell_df['Class']==2][0:200]
 
