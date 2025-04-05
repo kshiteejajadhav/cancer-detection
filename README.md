@@ -4,12 +4,12 @@ This project applies a Support Vector Machine (SVM) model to classify cell sampl
 
 ---
 
-## 🧠 Objective
+## Objective
 To develop a binary classification model that can assist in the detection of cancerous cells using key biological features.
 
 ---
 
-## 📁 Dataset
+## Dataset
 The dataset `cell_samples.csv` contains 9 attributes extracted from cell images:
 - Clump Thickness
 - Uniformity of Cell Size
@@ -27,7 +27,7 @@ The `Class` column is the target:
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Loads and cleans dataset
 2. Extracts features and target variable
@@ -36,14 +36,14 @@ The `Class` column is the target:
 
 ---
 
-## 📊 Results
+## Results
 - Classifier: SVM (Linear Kernel)
 - Accuracy: ~`XX%` (insert your real accuracy)
 - Evaluation: See `results/model_report.txt`
 
 ---
 
-## 📦 Setup
+## Setup
 
 ### Requirements
 Install dependencies via:
