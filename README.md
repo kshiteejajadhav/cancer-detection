@@ -38,8 +38,16 @@ The `Class` column is the target:
 
 ## Results
 - Classifier: SVM (Linear Kernel)
-- Accuracy: ~`XX%` (insert your real accuracy)
-- Evaluation: See `results/model_report.txt`
+- Accuracy: ~`96%` 
+- Evaluation:
+                      precision    recall  f1-score   support
+      
+                 2       1.00      0.94      0.97        90
+                 4       0.90      1.00      0.95        47
+      
+          accuracy                           0.96       137
+         macro avg       0.95      0.97      0.96       137
+      weighted avg       0.97      0.96      0.96       137
 
 ---
 
