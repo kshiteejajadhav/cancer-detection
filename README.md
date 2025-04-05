@@ -40,7 +40,7 @@ The `Class` column is the target:
 - Classifier: SVM (Linear Kernel)
 - Accuracy: ~`96%` 
 - Evaluation:
-                      precision    recall  f1-score   support
+                      `precision``recall`  `f1-score` `support`
       
                  2       1.00      0.94      0.97        90
                  4       0.90      1.00      0.95        47
